@@ -53,4 +53,4 @@ if [ ! -f $HERE/nmt/simplest_eng_fra.csv ]; then
     python $HERE/download.py 1jLx6dZllBQ3LXZkCjZ4VciMQkZUInU10 $HERE/nmt/simplest_eng_fra.csv # 30
 fi 
 
-mkdir -p $HERE/glove.6b
+mkdir -p $HERE/glove.6B
