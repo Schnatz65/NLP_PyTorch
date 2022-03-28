@@ -8,7 +8,7 @@ HERE="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Yelp Reviews dataset
 mkdir -p $HERE/yelp
 if [ ! -f $HERE/yelp/raw_train.csv ]; then
-    cp /share/data/yelp/raw_train.csvpython $HERE/yelp/
+    cp /share/data/yelp/raw_train.csv $HERE/yelp/
 fi
 if [ ! -f $HERE/yelp/raw_test.csv ]; then
     cp /share/data/yelp/raw_test.csv $HERE/yelp/
